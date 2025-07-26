@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Marquardt - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cursor Follower -->
+    <div class="cursor-follower"></div>
+    
+    <!-- Particle Background -->
+    <div class="particles-container">
+        <canvas id="particles-canvas"></canvas>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">JM</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Joseph Marquardt</span>
+                    </h1>
+                    <p class="hero-subtitle">Motivated High School Graduate Ready to Make an Impact</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <div class="profile-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="profile-glow"></div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-item" data-text="Fast Learner">💡</div>
+                            <div class="floating-item" data-text="Team Player">🤝</div>
+                            <div class="floating-item" data-text="Tech Savvy">💻</div>
+                            <div class="floating-item" data-text="Positive">✨</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="objective-card interactive-card">
+                        <h3>My Objective</h3>
+                        <p>Motivated and dependable high school graduate seeking my first job opportunity. Eager to learn, work hard, and gain hands-on experience in a team environment.</p>
+                        <div class="card-glow"></div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item interactive-card" data-count="3.7">
+                            <div class="stat-number">0</div>
+                            <div class="stat-label">GPA</div>
+                        </div>
+                        <div class="stat-item interactive-card" data-count="100">
+                            <div class="stat-number">0</div>
+                            <div class="stat-label">% Motivated</div>
+                        </div>
+                        <div class="stat-item interactive-card" data-count="2025">
+                            <div class="stat-number">0</div>
+                            <div class="stat-label">Graduate</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="timeline-preview interactive-card">
+                        <div class="timeline-item active" data-year="2022-2025">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>High School</h4>
+                                <p>Fusion Academy</p>
+                            </div>
+                            <div class="timeline-hover-effect"></div>
+                        </div>
+                        <div class="timeline-item" data-year="2025+">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>First Job</h4>
+                                <p>Ready to start!</p>
+                            </div>
+                            <div class="timeline-hover-effect"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Strengths</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card interactive-card" data-skill="communication">
+                    <div class="skill-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Strong Listener</h3>
+                    <p>Excellent communication skills developed through one-on-one learning environment</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="95"></div>
+                        <div class="progress-glow"></div>
+                    </div>
+                    <div class="skill-particles"></div>
+                </div>
+                <div class="skill-card interactive-card" data-skill="learning">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Fast Learner</h3>
+                    <p>Quick to adapt and master new concepts and technologies</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="90"></div>
+                        <div class="progress-glow"></div>
+                    </div>
+                    <div class="skill-particles"></div>
+                </div>
+                <div class="skill-card interactive-card" data-skill="reliability">
+                    <div class="skill-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Respectful & Dependable</h3>
+                    <p>Consistent, reliable, and maintains professional relationships</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="98"></div>
+                        <div class="progress-glow"></div>
+                    </div>
+                    <div class="skill-particles"></div>
+                </div>
+                <div class="skill-card interactive-card" data-skill="technology">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Tech Comfortable</h3>
+                    <p>Comfortable with modern technology and digital tools</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="85"></div>
+                        <div class="progress-glow"></div>
+                    </div>
+                    <div class="skill-particles"></div>
+                </div>
+                <div class="skill-card interactive-card" data-skill="teamwork">
+                    <div class="skill-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Team Player</h3>
+                    <p>Works effectively both independently and in collaborative environments</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="92"></div>
+                        <div class="progress-glow"></div>
+                    </div>
+                    <div class="skill-particles"></div>
+                </div>
+                <div class="skill-card interactive-card" data-skill="attitude">
+                    <div class="skill-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>Positive Attitude</h3>
+                    <p>Maintains optimism and willingness to help in any situation</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-width="100"></div>
+                        <div class="progress-glow"></div>
+                    </div>
+                    <div class="skill-particles"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="education-content">
+                <div class="education-card interactive-card">
+                    <div class="education-header">
+                        <div class="school-info">
+                            <h3>Fusion Academy</h3>
+                            <p class="school-address">311 N Tustin St #240, Orange, CA 92865</p>
+                            <p class="school-dates">March 2022 - June 2025</p>
+                        </div>
+                        <div class="education-badge">
+                            <span class="badge honors">High Honors</span>
+                            <span class="badge gpa">3.7 GPA</span>
+                        </div>
+                    </div>
+                    <div class="education-details">
+                        <div class="achievement-grid">
+                            <div class="achievement-item interactive-achievement">
+                                <i class="fas fa-user-graduate"></i>
+                                <div>
+                                    <h4>One-on-One Learning</h4>
+                                    <p>Personalized education environment</p>
+                                </div>
+                                <div class="achievement-glow"></div>
+                            </div>
+                            <div class="achievement-item interactive-achievement">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Time Management</h4>
+                                    <p>Strong organizational skills</p>
+                                </div>
+                                <div class="achievement-glow"></div>
+                            </div>
+                            <div class="achievement-item interactive-achievement">
+                                <i class="fas fa-lightbulb"></i>
+                                <div>
+                                    <h4>Creative Problem-Solving</h4>
+                                    <p>Independent projects & assignments</p>
+                                </div>
+                                <div class="achievement-glow"></div>
+                            </div>
+                            <div class="achievement-item interactive-achievement">
+                                <i class="fas fa-comments"></i>
+                                <div>
+                                    <h4>Communication Skills</h4>
+                                    <p>Built through personalized learning</p>
+                                </div>
+                                <div class="achievement-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-border-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="section-line"></div>
+            <p class="section-subtitle">Ready to start my career journey - let's talk!</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item interactive-contact">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <a href="mailto:joseph.marquardt77@gmail.com">joseph.marquardt77@gmail.com</a>
+                    </div>
+                    <div class="contact-glow"></div>
+                </div>
+                <div class="contact-item interactive-contact">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Phone</h4>
+                        <a href="tel:714-600-2272">714-600-2272</a>
+                    </div>
+                    <div class="contact-glow"></div>
+                </div>
+                <div class="contact-item interactive-contact">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Location</h4>
+                        <span>Anaheim, CA, USA</span>
+                    </div>
+                    <div class="contact-glow"></div>
+                </div>
+                <div class="contact-item interactive-contact">
+                    <div class="contact-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h4>Languages</h4>
+                        <span>English (Native)</span>
+                    </div>
+                    <div class="contact-glow"></div>
+                </div>
+            </div>
+
+            <!-- Contact Form (Formspree Integrated) -->
+            <div class="contact-form interactive-card">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <div class="input-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <div class="input-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <div class="input-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <div class="input-glow"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2024 Joseph Marquardt. Ready to make a difference.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
